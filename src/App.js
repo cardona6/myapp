@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import Layout from './Components/Layout.js';
+import Menu from './Components/menu/Menu.js';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-     <div>
-       <Layout />
-     </div>
-    );
-  }
+    render() {
+        return ( < div >
+            <
+            Menu / >
+            <
+            /div>
+        );
+    }
 }
 
 export default App;
